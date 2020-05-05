@@ -1,0 +1,26 @@
+<html>
+	<head>
+        <title>伸びるにゃんこ</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <div id="canvas"></div>
+		<script src="three.js"></script>
+        <script src="simu_cat.js"></script>
+        <div>
+            <button id="up">↑</button>
+        </div>
+        <div>
+            <button id="left">←</button>
+            <button id="pull">pull</button>
+            <button id="push">push</button>
+            <button id="right">→</button>
+        </div>
+        <div>
+            <button id="down">↓</button>
+        </div>
+        <div>
+            <input type="button" value="release" onclick="reset_force()"/>
+        </div>
+	</body>
+</html>
